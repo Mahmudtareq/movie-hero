@@ -5,4 +5,4 @@ This project was bootstrapped with [Create React App](https://github.com/Program
 ## Details About The React App 
  1.. This website about the bollywood movie star . Details  about there profession , There rating and other ..
  ##
- 2.. We Went to learn about bollywood person personality . about there life style etc 
+ 2.. We Went to learn about bollywood person personality . About there life style etc 
