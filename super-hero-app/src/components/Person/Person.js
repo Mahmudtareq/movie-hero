@@ -2,7 +2,6 @@ import React from 'react';
 import './Person.css';
 
 const Person = (props) => {
-
     const { name, img, age, rating } = props.detail;
     return (
         <div className="card p-3 m-2 shadow bg-secondary">

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Cart.css';
-
 const Cart = (props) => {
     const { person } = props;
     let total = 0;
@@ -8,6 +7,7 @@ const Cart = (props) => {
         total = total + movie.age;
     }
     // console.log(props.person)
+    // dynamicaly load cart data
     return (
         <div className="m-2 card p-4 shadow">
             <h3 className="text-center fb-500">PERSON</h3>
