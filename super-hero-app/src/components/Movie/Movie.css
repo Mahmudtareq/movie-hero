@@ -11,3 +11,6 @@
     grid-column-gap: 15px;
     
 }
+.radius-image{
+    border-radius: 50%;
+}

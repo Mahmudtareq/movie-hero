@@ -10,7 +10,7 @@ const Movies = (props) => {
     return (
 
         <div className="card g-5 border-primary m-2 mb-3 shadow p-3">
-            <div>
+            <div className="radius-image">
                 <img src={img} className="card-img-top img-fluid  image-class rounded" alt="" />
             </div>
 
@@ -18,7 +18,7 @@ const Movies = (props) => {
                 <h5 className="card-title text-center">Name:{name}</h5>
                 <h5 className="text-center"> Job : {Occupation}</h5>
                 <h6 className="text-center">Age : {age}</h6>
-                <p className="text-center text-info">Best Movie : {bestMovie}</p>
+                <p className="text-center text-info fs-5">Best Movie : {bestMovie}</p>
                 <p className="text-center">Rating : {rating}</p>
 
             </div>

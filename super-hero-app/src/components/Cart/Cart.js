@@ -11,8 +11,8 @@ const Cart = (props) => {
     return (
         <div className="m-2 card p-4 shadow">
             <h3 className="text-center fb-500">PERSON</h3>
-            <h5 className="text-center"> Person Count : {props.person.length}</h5>
-            <h5 className="text-center">Total Age :{total}</h5>
+            <h5 className="text-center text-primary"> Person Count : {props.person.length}</h5>
+            <h5 className="text-center text-primary">Total Age : {total}</h5>
         </div>
     );
 };
