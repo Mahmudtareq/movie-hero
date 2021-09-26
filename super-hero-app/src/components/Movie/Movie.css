@@ -1,0 +1,13 @@
+.movie-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.detials-container{
+    
+    border-right: 1px solid lightblue;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    
+}
