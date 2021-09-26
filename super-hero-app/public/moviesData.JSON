@@ -5,7 +5,7 @@
         "age": 78,
         "bestMovie": "Black",
         "img": "https://www.bollywoodhungama.com/wp-content/uploads/2021/06/Amitabh-Bachchan-donates-ventilators-medical-equipments-worth-Rs-1.75-crore-to-Mumbai-civic-hospital-2.jpg",
-        "salary": "5000000"
+        "rating": "9.5/10"
     },
     {
         "name": "Salman Khan",
@@ -13,7 +13,7 @@
         "age": 55,
         "bestMovie": "Bajrangi Bhaijaan",
         "img": "https://www.bizasialive.com/wp/wp-content/uploads/2020/03/salmankhan003.jpg",
-        "salary": "12000000"
+        "rating": "9.1/10"
     },
     {
         "name": "ShahRukh Khan",
@@ -21,7 +21,7 @@
         "age": 55,
         "bestMovie": "Dilwale Dulhania Le Jayenge ",
         "img": "https://i.zoomtventertainment.com/story/shah_rukh_khan.jpg?tr=w-1200,h-900",
-        "salary": "15400000"
+        "rating": "9.3/10"
     },
     {
         "name": "Aishwarya Rai",
@@ -29,7 +29,7 @@
         "age": 47,
         "bestMovie": "Devdas",
         "img": "https://pbs.twimg.com/media/EO22RSIUUAE4sJp.jpg",
-        "salary": "100000"
+        "rating": "8.5/10"
     },
     {
         "name": "Deepika Padukone",
@@ -37,7 +37,7 @@
         "age": 35,
         "bestMovie": "Om Shanti Om",
         "img": "https://www.filmibeat.com/img/2021/08/deepika-padukone-1570640014-1602568621-1611054918-1628611290.jpg",
-        "salary": "1200000"
+        "rating": "8.0/10"
     },
     {
         "name": "Rani Mukerji",
@@ -45,7 +45,7 @@
         "age": 43,
         "bestMovie": "Har Dil Jo Pyar Karega",
         "img": "https://upload.wikimedia.org/wikipedia/commons/2/28/Rani_Mukerji_promoting_Hichki_in_2018_%28cropped%29.jpg",
-        "salary": "120000"
+        "rating": "8.6/10"
     },
     {
         "name": "Alia Bhatt",
@@ -53,7 +53,7 @@
         "age": 28,
         "bestMovie": " Raazi",
         "img": "https://filmfare.wwmindia.com/content/2021/may/aliabhatt41621865914.jpg",
-        "salary": "130000"
+        "rating": "7.9/10"
     },
     {
         "name": "Aamir Khan",
@@ -61,7 +61,7 @@
         "age": 56,
         "bestMovie": "3 idiots",
         "img": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Aamir_Khan_graces_the_first_look_launch_of_%E2%80%98Secret_Superstar%E2%80%99.jpg",
-        "salary": "4000000"
+        "rating": "9.4/10"
     },
     {
         "name": "Hrithik Roshan",
@@ -69,6 +69,6 @@
         "age": 47,
         "bestMovie": " Koi... Mil Gaya",
         "img": "https://i.pinimg.com/originals/ce/e5/b5/cee5b55e023ff23a6c02457136247c47.jpg",
-        "salary": "1400000"
+        "rating": "8.9/10"
     }
 ]

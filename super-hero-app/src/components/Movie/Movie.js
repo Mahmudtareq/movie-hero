@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Movies from '../movies/Movies';
+import Person from '../Person/Person';
 import './Movie.css'
 
 const Movie = () => {
     const [movies, setMovies] = useState([]);
     const [person, setPerson] = useState([]);
+    const [details, setDetails] = useState([]);
 
     useEffect(() => {
         fetch('./moviesData.JSON')
@@ -14,9 +16,12 @@ const Movie = () => {
     }, [])
     const handleAddToStar = (movie) => {
         const newPerson = [...person, movie];
+        const newDetails = [...details, movie];
         setPerson(newPerson);
-        console.log(movie);
+        setDetails(newDetails);
+        // console.log(movie);
     }
+
 
     return (
         <div className="movie-container">
@@ -33,6 +38,15 @@ const Movie = () => {
             </div>
             <div className="cart-container">
                 <Cart person={person}></Cart>
+
+                {
+                    details.map(detail => <Person
+                        key={detail.name}
+                        detail={detail}
+                        handleAddToStar={handleAddToStar}
+                    ></Person>)
+                }
+
 
             </div>
 
