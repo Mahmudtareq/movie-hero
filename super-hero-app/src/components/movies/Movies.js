@@ -3,9 +3,6 @@ import './Movies.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAlignRight } from '@fortawesome/free-solid-svg-icons';
 
-
-
-
 const Movies = (props) => {
     // console.log(props)
     const { name, Occupation, age, bestMovie, img, rating } = props.movie;
@@ -19,8 +16,8 @@ const Movies = (props) => {
 
             <div className="card-body">
                 <h5 className="card-title text-center">Name:{name}</h5>
-                <h5 className="text-center">Occupation:{Occupation}</h5>
-                <h6 className="text-center">Age:{age}</h6>
+                <h5 className="text-center"> Job : {Occupation}</h5>
+                <h6 className="text-center">Age : {age}</h6>
                 <p className="text-center text-info">Best Movie : {bestMovie}</p>
                 <p className="text-center">Rating : {rating}</p>
 
